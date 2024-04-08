@@ -35,20 +35,21 @@ const FeedbackForm = forwardRef<
   Pick<React.ComponentPropsWithoutRef<'form'>, 'onSubmit'>
 >(function FeedbackForm({ onSubmit }, ref) {
   return (
-    <form
-      ref={ref}
-      onSubmit={onSubmit}
-      className="absolute inset-0 flex items-center justify-center gap-6 md:justify-start"
-    >
-      <p className="text-sm text-zinc-600 dark:text-zinc-400">
-        Was this page helpful?
-      </p>
-      <div className="group grid h-8 grid-cols-[1fr,1px,1fr] overflow-hidden rounded-full border border-zinc-900/10 dark:border-white/10">
-        <FeedbackButton data-response="yes">Yes</FeedbackButton>
-        <div className="bg-zinc-900/10 dark:bg-white/10" />
-        <FeedbackButton data-response="no">No</FeedbackButton>
-      </div>
-    </form>
+    // <form
+    //   ref={ref}
+    //   onSubmit={onSubmit}
+    //   className="absolute inset-0 flex items-center justify-center gap-6 md:justify-start"
+    // >
+    //   <p className="text-sm text-zinc-600 dark:text-zinc-400">
+    //     Was this page helpful?
+    //   </p>
+    //   <div className="group grid h-8 grid-cols-[1fr,1px,1fr] overflow-hidden rounded-full border border-zinc-900/10 dark:border-white/10">
+    //     <FeedbackButton data-response="yes">Yes</FeedbackButton>
+    //     <div className="bg-zinc-900/10 dark:bg-white/10" />
+    //     <FeedbackButton data-response="no">No</FeedbackButton>
+    //   </div>
+    // </form>
+    <></>
   )
 })
 
@@ -59,8 +60,8 @@ const FeedbackThanks = forwardRef<React.ElementRef<'div'>>(
         ref={ref}
         className="absolute inset-0 flex justify-center md:justify-start"
       >
-        <div className="flex items-center gap-3 rounded-full bg-emerald-50/50 py-1 pl-1.5 pr-3 text-sm text-emerald-900 ring-1 ring-inset ring-emerald-500/20 dark:bg-emerald-500/5 dark:text-emerald-200 dark:ring-emerald-500/30">
-          <CheckIcon className="h-5 w-5 flex-none fill-emerald-500 stroke-white dark:fill-emerald-200/20 dark:stroke-emerald-200" />
+        <div className="flex items-center gap-3 rounded-full bg-red-50/50 py-1 pl-1.5 pr-3 text-sm text-red-900 ring-1 ring-inset ring-red-500/20 dark:bg-red-500/5 dark:text-red-200 dark:ring-red-500/30">
+          <CheckIcon className="h-5 w-5 flex-none fill-red-500 stroke-white dark:fill-red-200/20 dark:stroke-red-200" />
           Thanks for your feedback!
         </div>
       </div>
