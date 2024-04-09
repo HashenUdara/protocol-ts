@@ -36,7 +36,7 @@ export default async function RootLayout({
   return (
     <html lang="en" className="h-full" suppressHydrationWarning>
       <body
-        className={`flex min-h-full bg-white antialiased dark:bg-neutral-950`}
+        className={`flex min-h-full bg-white antialiased dark:bg-neutral-950 ${fontSans.className}`}
       >
         <Providers>
           <div className="w-full">
