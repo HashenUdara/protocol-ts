@@ -233,13 +233,13 @@ export const navigation: Array<NavGroup> = [
   {
     title: 'Guides',
     links: [
-      { title: 'Introduction', href: '/' },
-      { title: 'Quickstart', href: '/quickstart' },
-      { title: 'SDKs', href: '/sdks' },
-      { title: 'Authentication', href: '/authentication' },
-      { title: 'Pagination', href: '/pagination' },
-      { title: 'Errors', href: '/errors' },
-      { title: 'Webhooks', href: '/webhooks' },
+      { title: 'Youtube', href: '/quickstart' },
+      { title: 'Youtube with Pattern', href: '/' },
+      { title: 'Youtube without Gradient', href: '/sdks' },
+      { title: 'Facebook', href: '/authentication' },
+      { title: 'Twitter', href: '/pagination' },
+      // { title: 'Errors', href: '/errors' },
+      // { title: 'Webhooks', href: '/webhooks' },
     ],
   },
   {
