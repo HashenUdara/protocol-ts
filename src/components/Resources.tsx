@@ -41,20 +41,20 @@ const resources: Array<Resource> = [
       ],
     },
   },
-  {
-    href: '/messages',
-    name: 'Messages',
-    description:
-      'Learn about the message model and how to create, retrieve, update, delete, and list messages.',
-    icon: EnvelopeIcon,
-    pattern: {
-      y: 32,
-      squares: [
-        [0, 2],
-        [1, 4],
-      ],
-    },
-  },
+  // {
+  //   href: '/messages',
+  //   name: 'Messages',
+  //   description:
+  //     'Learn about the message model and how to create, retrieve, update, delete, and list messages.',
+  //   icon: EnvelopeIcon,
+  //   pattern: {
+  //     y: 32,
+  //     squares: [
+  //       [0, 2],
+  //       [1, 4],
+  //     ],
+  //   },
+  // },
   {
     href: '/groups',
     name: 'Groups',
@@ -100,6 +100,7 @@ function ResourcePattern({
       </div>
       <motion.div
         className="absolute inset-0 rounded-2xl bg-gradient-to-r from-[#D7EDEA] to-[#F4FBDF] opacity-0 transition duration-300 group-hover:opacity-100 dark:from-red-900/20 dark:to-red-800/20"
+
         style={style}
       />
       <motion.div
